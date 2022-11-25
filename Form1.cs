@@ -22,13 +22,8 @@ namespace OliveiraLab2
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            //declare 3 local varieble
-            int num1, num2, answer;
-
-            //read from textBox, put into int
-
-            num1 = Convert.ToInt32(txtNumber.Text);
-            num2 = Convert.ToInt32(txtMultiplier.Text);
+            //declare and set variables
+            int num1= Convert.ToInt32(txtNumber.Text), num2= Convert.ToInt32(txtMultiplier.Text), answer;
 
             //do the math
             answer = num1 * num2;
